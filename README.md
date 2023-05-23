@@ -1,15 +1,15 @@
-# Atomic React - Webpack boilerplate
+# Atomic React - React Components Exercise "Tabs"
 
-To start using, clone the repository and name the project as you need:
+To start the exercise, clone the repository:
 
 ```bash
-git clone git@github.com:Atomic-React/react-webpack-boilerplate.git my-project-name
+git clone git@github.com:Atomic-React/react-components-ex-tabs.git
 ```
 
 Go to the project folder
 
 ```bash
-cd my-project-name
+cd react-components-ex01
 ```
 
 Install dependencies:
@@ -23,3 +23,5 @@ Run the project:
 ```bash
 npm start
 ```
+
+## The exercise

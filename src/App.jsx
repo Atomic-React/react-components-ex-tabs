@@ -1,17 +1,21 @@
-import React from 'react';
-import AtomicReactLogo from '../public/atomic-react.png';
+import React, { Component } from 'react';
 import './App.css';
+import Button from './components/Button';
 
-const App = () => {
+class App extends Component {
 
-	return (
-		<div className="container">
-			<img src={AtomicReactLogo} className="logo" alt="Atomic React" />
-			<h1 className="title">Atomic React</h1>
-			<h2 className="subtitle">Webpack boilerplate</h2>
-			<a href="https://www.atomic-react.com" rel="noreferrer" className="link" target="_blank">Go to Atomic React</a>
-		</div>
-	);
-};
+	render() {
+		return (
+			<div className="container">
+				<Button type="button">
+					View articles
+				</Button>
+				<p>
+					Tabs with articles should appear here
+				</p>
+			</div>
+		);
+	}
+}
 
 export default App;
